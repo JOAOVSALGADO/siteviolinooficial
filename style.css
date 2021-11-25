@@ -1,0 +1,95 @@
+body{
+    background-color:#ebc8b29d ;
+  
+
+
+}
+.navbar{
+    height: 90px;
+}
+.btn{
+    height: ;
+    text-align: center;
+    margin-top: 24px;
+    align-items: center;
+    width: 100px;
+    color: rgb(230, 231, 174);
+    margin-left: 70px;
+}
+
+.sessaocardvideos{
+    margin-top: 150px;
+}
+.sessaocardvideos1{
+    margin-top: 500px;
+    dsdsdsdsdsds
+}
+.detaquescard {
+    text-align: center;
+    margin-top: 190px;
+    color: black;
+    font-family: 'Fredericka the Great', cursive;
+}
+h4{margin-top: -30px;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+h4:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 480px;
+    border-radius: 15px;
+}
+.logo{
+    margin: auto;
+    width: 200px;
+    margin-left: 200px;
+}
+
+
+.container{
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+}
+.col{margin-top: -70px;
+    height: 70px;
+    
+}
+
+.col:hover{
+    height: 90px;
+    color: rgb(221, 118, 21);
+}
+.barra{
+   
+    margin: auto;
+    height: 90px;
+}
+.carousel .slide{
+    text-align: center;
+}
+
+.btn1{
+    color: white;
+}
+
+    
+.iconmenu{ display: inline-flex;
+    
+}
+.barvideo{
+   align-items: center;
+    justify-content: center;}
+    
+.card{
+    align-items: center;
+}
+.titulovideo{
+    margin: auto;
+    align-items: center;
+justify-content: center;
+}
+.divmenu{
+    margin-top: 90px;
+}
