@@ -1,3 +1,4 @@
+
 .btn {
     text-align: center;
     margin-top: 24px;
@@ -26,9 +27,16 @@ text-align: center;
     color: black;
     font-family: 'Fredericka the Great', cursive;
 }
-h5{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+h5 p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
 
 }
+iframe{justify-content: center;
+    text-align: center;
+    width: auto;
+    width: 100%;    
+}
+
+p{ font-family: 'Courier New', Courier, monospace;}
 h4 {
     margin-top: -100px;
     color: black;
@@ -282,9 +290,48 @@ iframe{
       padding: 0 20px;
   }
   .contatos{
-      margin-top: 50px;
+      margin-top: 600px;
 
   }
+  .vermais{
+      font-family: 'Courier New', Courier, monospace;
+      color: black;
+      text-decoration: none;
+      font-size: 30px;
+      padding: 5px;
+      width: auto;
+      text-align: center;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  
+  
+      
+  }
+  .feedback {
+      height: 500px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+  }
+  .vermais2{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.vermais2:hover{
+    background-color: rgba(238, 238, 122, 0.664);
+    border-radius: 20px;
+    
+}
   
   .carousel {
       display: block;
