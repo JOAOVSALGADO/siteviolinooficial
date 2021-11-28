@@ -64,7 +64,7 @@
                     <li class="nav-item ms-3">
                         <a class="nav-link" href="#videos">Videos</a>
                     </li>
-                        
+
                     </li>
                     <li class="nav-item dropdown ms-3">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -72,8 +72,8 @@
                             Repertorio
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            
-                            <li><a class="dropdown-item"  href="repertorio.html">Completo</a></li>
+
+                            <li><a class="dropdown-item" href="repertorio.html">Completo</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -246,40 +246,47 @@
 
 
 
-    <div  id="carouselExampleIndicators" class="carousel slide feedback mx-auto " data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide feedback mx-auto " data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Amélia Gomes.png" height="500px" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="gabi.PNG"height="500px" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="saraegui.PNG" height="500px" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="vitoria.PNG" height="500px" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="sandro.PNG" height="500px" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="Amélia Gomes.png" height="500px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="gabi.PNG" height="500px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="saraegui.PNG" height="500px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="vitoria.PNG" height="500px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="sandro.PNG" height="500px" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
 
 
     <div class="contatos">
@@ -318,20 +325,24 @@
                     <h4 class="tel">Tel:(31) 993038677</h4>
                     <h4 class="tel">E-mail: joaovsalgado22@gmail.com</h4>
                 </div>
-                <div class=" container col">
+                
+                
+                
+                <div class=" container col contato">
                     <div class="row align-items-center w-75 mx-auto">
-                        <label for="formGroupExampleInput" class="">
+                        <form action="form" method="POST" action="./formulario.php"></form>
+                        <label for="formGroupExampleInput" class="" name="nome" placeholder=>
                             <h4>Qual seu nome?</h4>
                         </label>
-                        <input type="text" class="" id="formGroupExampleInput" placeholder="Escreva seu nome">
+                        <input type="text" class="field" id="formGroupExampleInput" name="name" placeholder="Nome">
                     </div>
                     <br>
                     <div class="row align-items-center w-75">
                         <label for="formGroupExampleInput" class="unico">
                             <h4>Qual a data do seu evento?</h4>
                         </label>
-                        <input type="datetime-local" class="unico" id="formGroupExampleInput"
-                            placeholder="Escreva seu nome">
+                        <input type="datetime-local" class="field" id="formGroupExampleInput" name="data"
+                            placeholder="data">
 
                     </div>
                     <br>
@@ -339,22 +350,25 @@
                         <label for="formGroupExampleInput" class="form-label">
                             <h4>Seu melhor e-mail</h4>
                         </label>
-                        <input type="email" class="form-control" id="formGroupExampleInput"
-                            placeholder="Digite seu e-mail">
+                        <input type="email" class="field" id="formGroupExampleInput" name="email"
+                            placeholder="e-mail">
                     </div>
                     <br>
                     <div class="row align-items-center  w-75">
                         <label for="formGroupExampleInput" class="form-label">
                             <h4>Seu melhor telefone</h4>
                         </label>
-                        <input type="tel" class="form-control" id="formGroupExampleInput" placeholder="Apenas numeros">
+                        <input type="tel" class="field" id="formGroupExampleInput" name="tel"
+                            placeholder="telefone">
                     </div>
                     <br>
                     <div class="row align-items-center w-75">
                         <label for="formGroupExampleInput" class="form-label">
                             <h4>Deixe uma mensagem</h4>
                         </label>
-                        <input type="text" class="caixatexto" id="formGroupExampleInput" placeholder="...">
+                        <input type="text" class="caixatexto field" id="formGroupExampleInput" name="mensagem"
+                            placeholder="Mensagem">
+                        <input type="submit" value="Enviar">
                     </div>
                 </div>
 

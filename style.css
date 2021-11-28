@@ -290,7 +290,7 @@ iframe{
       padding: 0 20px;
   }
   .contatos{
-      margin-top: 600px;
+      margin-top: 200px;
 
   }
   .vermais{
@@ -304,11 +304,14 @@ iframe{
       justify-content: center;
       text-align: center;
       align-items: center;
+      margin-top:-20px;
+      
   
   
       
   }
   .feedback {
+      margin-top: 150px;
       height: 500px;
       text-align: center;
       justify-content: center;
@@ -326,6 +329,7 @@ iframe{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-left: 200px;
 }
 .vermais2:hover{
     background-color: rgba(238, 238, 122, 0.664);
