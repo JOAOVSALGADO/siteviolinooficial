@@ -1,4 +1,7 @@
-
+.body{
+    background-color: 
+#f5eaea;
+}
 .btn {
     text-align: center;
     margin-top: 24px;
@@ -49,6 +52,7 @@ h4 {
     margin: auto;
     width: 200px;
     margin-left: 200px;
+    margin-top: 100px;
 }
 
 
@@ -79,8 +83,10 @@ h4 {
 
 .iconmenu {
 
-    margin-left: px;
+    
     display: inline-flex;
+    
+    
 
 }
 
@@ -540,7 +546,7 @@ iframe{
      margin-top: -100px;
      color: black;
      font-family: 'Courier New', Courier, monospace;
-     font-size: 30px;
+    
  }
  
  
@@ -578,11 +584,13 @@ iframe{
  
  .iconmenu {
  
- 
+    
      display: inline-flex;
  
  }
- 
+ h5{
+     font-size: 500px;
+ }
  .barvideo {
      align-items: center;
      justify-content: center;
@@ -964,3 +972,54 @@ iframe{
            object-fit: cover;
        }
    }
+
+   .formulario{
+       width: 350px;
+      
+       
+
+   }
+   .logoteste{
+       z-index: 1;
+      
+   }
+   .navicons {
+       position: fixed; 
+      
+       width: 100%;
+    z-index:1;
+    background-color: rgb(255, 255, 255);
+    margin-top: -8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .enviar{
+    box-shadow: 2px 3px 5px;
+    width: 100px;
+    background-color: rgb(236, 163, 163);
+    margin-top: 10px;
+    border: none;
+    
+    
+}
+.form{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.teste{
+    width: 400px;
+}
+
+.navbar {
+    text-decoration: none;
+height: 160px;
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+}
+.parabaixo{
+    margin-top: 30px;
+}
