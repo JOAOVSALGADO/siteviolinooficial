@@ -1,6 +1,6 @@
 .body {
     background-color:
-        #f5eaea;
+        #ffffff;
 }
 
 .btn {
@@ -1110,7 +1110,10 @@ section {
 .testando:hover{
     background-color: rgb(210, 255, 11);
 }
-
+.imgfoto{
+    filter:drop-shadow(4px 4px 15px rgb(8, 8, 8));
+    border-radius: 10px;
+}
 .navicons {
     position: fixed;
 
