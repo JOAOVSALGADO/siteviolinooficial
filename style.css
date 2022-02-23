@@ -1126,6 +1126,9 @@ section {
     filter:drop-shadow(4px 4px 15px rgb(8, 8, 8));
     border-radius: 10px;
 }
+.test4{
+    margin-top: 7px
+}
 .navicons {
     position: fixed;
 
@@ -1136,7 +1139,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 38px;
+    height: 48px;
 }
 
 .enviar {
@@ -1165,14 +1168,14 @@ section {
     height: 100px;
     background-color: rgb(255, 255, 255);
     
-    box-shadow: 2px 2px 10px;
+    box-shadow: 2px 2px 30px;
 
 
 
 }
 .nav3{
     height: 500px;
-    background-color: rgba(255, 255, 255, 0.863);
+    background-image:linear-gradient(to bottom, #ebc8b2,#ebc8b2ed, #ebc8b2da,#ebc8b2f1, #ebc8b2);
 }
 .parabaixo {
     color: white;
@@ -1209,6 +1212,6 @@ p{font-family: 'Times New Roman', Times, serif;}
 button{
     width: 800px;
     border: 1px;
-    box-shadow: 2px 2px 10px rgb(240, 87, 87);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
     border-radius: ;
 }
