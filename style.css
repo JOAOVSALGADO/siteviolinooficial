@@ -1099,16 +1099,28 @@ section {
     z-index: 1;
 
 }
+.tes2{
+    background-image: url(2.jpg);
+    background-size: 2200px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+.tes23{
+    
+    height: 10px;
+    
+}
 
 .testando {
     
     font-family: 'Gideon Roman', cursive;
     text-decoration: none;
-    color: black;
-    font-size: 19px;
+    color: rgb(2, 2, 2);
+    font-size: 15px;
 }
 .testando:hover{
-    background-color: rgb(210, 255, 11);
+    
 }
 .imgfoto{
     filter:drop-shadow(4px 4px 15px rgb(8, 8, 8));
@@ -1152,25 +1164,51 @@ section {
     margin-top: -30px;
     height: 100px;
     background-color: rgb(255, 255, 255);
-    z-index: -1;
+    
+    box-shadow: 2px 2px 10px;
 
 
 
 }
 .nav3{
-    background-color: white;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.863);
 }
 .parabaixo {
+    color: white;
     margin-top: 50px;
 }
 .parabaixo:hover{
-    background-color: rgb(20, 22, 9);
+    background-color: rgba(211, 15, 15, 0.424);
+    height: 40px;
+    margin-top: 40px;
 }
 .sonhoemmusica {
+    text-shadow:2px 2px 14px ;
+    
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
 }
+.test{
+    margin-top: ;
+}
+
+.sonhoemmusica2 {
+    padding: 5px;
+   border-radius: 4px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(231, 94, 94);
+}
 .musicapara{
+    
     font-size: 50px;
     font-family: 'Gideon Roman', cursive;
+}
+p{font-family: 'Times New Roman', Times, serif;}
+button{
+    width: 800px;
+    border: 1px;
+    box-shadow: 2px 2px 10px rgb(240, 87, 87);
+    border-radius: ;
 }
