@@ -4,3 +4,5 @@ $('.main-carousel').flickity({
     wrapAround:true,
     freeScroll: true
   });
+
+  

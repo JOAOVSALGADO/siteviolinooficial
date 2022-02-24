@@ -1,6 +1,6 @@
 .body {
     background-color:
-        #ffffff;
+        #8a6d6d;
 }
 
 .btn {
@@ -229,10 +229,9 @@ iframe {
     opacity: 1;
     z-index: 1;
 
-    img {
-        box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-    }
+   
 }
+.img
 
 .player {
     background-color: #fff;
@@ -1173,9 +1172,13 @@ section {
 
 
 }
+.den{
+    margin-top: ;
+}
 .nav3{
+    width: auto;
     height: 500px;
-    background-image:linear-gradient(to bottom, #ebc8b2,#ebc8b2ed, #ebc8b2da,#ebc8b2f1, #ebc8b2);
+    background-image:linear-gradient(to bottom, #e6a439,#f6b64db9, #e6b554,#ebaa43, #fad67d);
 }
 .parabaixo {
     color: white;
@@ -1197,8 +1200,8 @@ section {
 }
 
 .sonhoemmusica2 {
-    padding: 5px;
-   border-radius: 4px;
+    
+   
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
     color: rgb(231, 94, 94);
@@ -1210,8 +1213,18 @@ section {
 }
 p{font-family: 'Times New Roman', Times, serif;}
 button{
-    width: 800px;
+    height: 150px;
+    padding: 20px;
     border: 1px;
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
     border-radius: ;
 }
+ .redondo{
+     height: 200px;
+     border-radius: 100%;
+ }
+
+
+
+
+
