@@ -7,12 +7,13 @@ background-image: repeating-linear-gradient(45deg, #2f2f32 0, #2f2f32 0.4px, #00
 }
 
 .joaocortado{
-    width: 100%;
+    
    
 
     
     
 }
+
 * {
     box-sizing: border-box;
 }
@@ -355,10 +356,17 @@ input[type=radio] {
     border-radius: 30px;
 }
 
-
-
+.logoredonda {
+    
+    margin-top: 100px;
+}
+.chatodemais{
+    margin-top: 800px;
+}
 .contatos {
-    margin-top: 200px;
+   height: 1500px;
+    background-color: rgba(247, 198, 175, 0.753);
+
 
 }
 
@@ -917,8 +925,6 @@ section {
     padding: 0 20px;
 }
 
-.contatos {
-    margin-top: 200px;
 
 }
 
@@ -1240,7 +1246,17 @@ section {
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
 }
-
+.sonhoemmusica1 {
+    padding: 50px;
+    padding-left: 20px;
+    
+    
+    text-shadow: 2px 2px 30px black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px
+}
 .test {
     margin-top: ;
 }
