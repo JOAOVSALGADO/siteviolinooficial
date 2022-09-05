@@ -1,7 +1,7 @@
 .body {
     background-color: #000000;
     background-size: 4px 4px;
-    background-image: repeating-linear-gradient(45deg, #5a2323 0, #2f2f32 0.4px, #000000 0, #e29393 50%);
+    background-image: repeating-linear-gradient(45deg, #be1f1f 0, #2f2f32 0.4px, #fffffff5 0, #e29393 50%);
 }
 
 
@@ -207,23 +207,93 @@ footer{
 
 
 
+.botaoorçamento {align-items: center;
+    background-color: rgb(226, 226, 136);
 
-
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  .pic {
+    filter:drop-shadow(4px 4px 15px rgb(46, 39, 39));
+    border-radius: 10px;
+  }
+  .pic-ctn {
+    width: 100vw;
+    height: 200px;
+    left: -8%;
+   
+    position: absolute;
+    
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 20s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 4s;
+  }
+  img:nth-child(3) {
+    animation-delay: 8s;
+  }
+  img:nth-child(4) {
+    animation-delay: 12s;
+  }
+  img:nth-child(5) {
+    animation-delay: 16s;
+  }
 .tese {
     
     border-radius: 5px;
     background-color: white;
-    box-shadow: 4px 4px 20px rgb(255, 174, 174);
+    box-shadow: 4px 4px 20px rgb(12, 11, 11);
     z-index: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-right: 300px;
+    left: 20%;
+    right: 20%;
+   position: absolute;
+   
+    
 
 }
 
 .tese:hover {
-    background-color: rgb(212, 147, 147);
+    background-color: rgb(214, 223, 89);
     cursor: pointer;
 }
 
